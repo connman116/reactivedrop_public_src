@@ -188,6 +188,7 @@ public:
 
 	EHANDLE m_hCreatorWeapon;
 	Class_T m_CreatorWeaponClass;
+	bool m_bCanFriendlyFire;
 
 	CNetworkVarEmbedded( CRD_ProjectileData, m_ProjectileData );
 	const CRD_ProjectileData *GetProjectileData() const override
